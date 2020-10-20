@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<link rel="stylesheet" href="tm.css" />
+<head>
+<title> TEMEL MUZEMMIL </title>
+</head>
+<body>
+<h1> <center> La France </center> </h1>
+<h2> <center> Liste des plus grandes villes de France </center> </h2>
+ <center> <a href="illustration.html">
+   <button class="button"> 
+     les 5 plus beaux endroits de France </button> </a> </center> </h4>
+<p> La France est un pays d'Europe qui compte 67 millions d'habitants. <br/>
+classemment des plus grandes villes selon le nombre d'habitants :
+</p>
+<ul>
+<li> <a href="#Paris">Paris </a> </br>
+<li> <a href="https://fr.wikipedia.org/wiki/Marseille">Marseille </a> </br>
+<li> <a href="https://fr.wikipedia.org/wiki/Lyon">Lyon </a> </br>
+<li> <a href="https://fr.wikipedia.org/wiki/Toulouse">Toulouse </a> </br>
+<li> <a href="https://fr.wikipedia.org/wiki/Marseille">Nice </a> <p> 
+<center> <h3 id="Paris">Paris dans toute sa splendeur ! </h3> </center>
+<center> <img src=https://frontpopulaire.fr/api/image/isefac-bachelor-paris.jpg.jpeg?w=720&h=405 </center>
+</p>
+<head>
+<h3> découvrez Paris en vidéo ! </h3>
+<center> <video src="Parisin4K.mp4" controls poster="maxresdefault.jpg" width="600"></video> </center>
+<p> voici le lien vers <a href="file:///C:/Users/Utilisateur/Desktop/tmsite.html">tmsite </a> <p>
+</body>
+BODY
+{
+	background-image:url("parisisme.jpg");
+	background-attachment: fixed;
+}
+.button {
+  background: #c92a2a;
+  border: 2;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em 2em; }
+p
+{
+	font-family: verdana;
+  font-size: 1em;
+}
+h1, h3, h2
+{
+	color: hsl(0,59%,41%);
+}
+li
+{
+    font-family: Comic Sans MS
+}
+{
+   @media all and (max-width: 1024px)
+{
+    section
+    {
+        flex-direction: column;
+    }
+
+    article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+    
+    #fleche_bulle
+    {
+        display: none;
+    }
+    
+    #photo_zozor img
+    {
+        width: 110px;
+        float: right;
+        margin-left: 15px;
+    }
+    
+    aside p:last-child
+    {
+        text-align: center;
+    }
+}
